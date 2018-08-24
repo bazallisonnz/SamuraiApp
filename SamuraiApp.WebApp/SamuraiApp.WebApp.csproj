@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SamuraiApp.Data\SamuraiApp.Data.csproj" />
+    <ProjectReference Include="..\SamuraiApp.Domain\SamuraiApp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
